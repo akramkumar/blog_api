@@ -2,15 +2,12 @@ package com.example.blog.api.article;
 
 import java.util.Date;
 
-import javax.xml.crypto.Data;
-
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.lang.NonNull;
 import org.springframework.lang.Nullable;
 
 import com.example.blog.api.user.UserEntity;
 
-import jakarta.persistence.Access;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
